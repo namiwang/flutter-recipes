@@ -50,6 +50,7 @@ NOTE:
 
 ## text as link
 
+```dart
 class _LinkTextSpan extends TextSpan {
   _LinkTextSpan({ TextStyle style, String url, String text }) : super(
     style: style,
@@ -59,6 +60,7 @@ class _LinkTextSpan extends TextSpan {
     }
   );
 }
+```
 
 NOTE:
 
